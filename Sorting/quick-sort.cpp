@@ -40,8 +40,8 @@ vector<int> quickSort(vector<int> arr)
     qs(arr, 0, arr.size() - 1);
     return arr;
 }
-
 int main()
+
 {
     vector<int> arr = {4, 6, 2, 5, 7, 9, 1, 3};
     int n = arr.size();
