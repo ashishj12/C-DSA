@@ -24,7 +24,7 @@ int main()
 
     int n = 5, element = 7;
     int arr[n] = {1, 3, 5, 7, 8};
-    cout << LinearSearch(arr, n, element)<<endl;
+    cout << LinearSearch(arr, n, element)<<endl; 
 
     return 0;
 }
