@@ -16,10 +16,11 @@ bool isSubset(int arr1[], int m, int arr2[], int n)
     }
     for (int i = 0; i < n; i++)
     {
+
         if (hashset.find(arr2[i]) == hashset.end())
             return false;
     }
-    return true;
+    return true;    //return true value
 }
 
 int main()
