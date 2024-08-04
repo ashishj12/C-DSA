@@ -3,7 +3,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int singleNonDuplicate(vector<int> &arr)
+int singleElem(vector<int> &arr)
 {
     int n = arr.size();
 
@@ -42,7 +42,7 @@ int singleNonDuplicate(vector<int> &arr)
 int main()
 {
     vector<int> arr = {1, 1, 2, 2, 3, 3, 4, 5, 5, 6, 6};
-    int ans = singleNonDuplicate(arr);
+    int ans = singleElem(arr);
     cout << "The single element is: " << ans << "\n";
     return 0;
 }
