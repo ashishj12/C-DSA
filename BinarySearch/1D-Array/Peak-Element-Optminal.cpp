@@ -11,7 +11,7 @@ int FindPeak(vector<int> arr)
         return 1;
     if (arr[n - 1] > arr[n - 2])
         return n - 1;
-
+x
     int low = 1, high = n - 2;
     while (low <= high)
     {
