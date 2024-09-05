@@ -33,10 +33,10 @@ bool searchInARotatedSortedArrayII(vector<int> &arr, int k)
             }
         }
         else
-        { 
+        {
             if (arr[mid] <= k && k <= arr[high])
             {
-            
+
                 low = mid + 1;
             }
             else
